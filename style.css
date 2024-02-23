@@ -69,6 +69,11 @@ body {
   font-family: var(--second-family);
   font-size: var(--fz-btn);
   border-radius: var(--btn-radius);
+  transition: 0.3s all ease-in-out;
+}
+
+.btn:hover {
+  box-shadow: 0 4px 6px var(--black);
 }
 
 .btn-sign-up {
@@ -118,6 +123,11 @@ body {
 .services__item {
   border: 1px solid var(--color-border);
   flex: 0 1 calc((100% - 32px * 3) / 4);
+  transition: 0.3s all ease-in-out;
+}
+
+.services__item:hover {
+  transform: scale(1.1);
 }
 
 .services__content {
@@ -161,7 +171,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  justify-content: space-between;
   padding-top: 31px;
   padding-bottom: 80px;
 }
@@ -178,6 +187,11 @@ body {
 .plants__img {
   background-color: var(--color-bg);
   margin-bottom: 16px;
+  transition: 0.3s all ease-in-out;
+}
+
+.plants__img:hover {
+  background-color: var(--color-primary);
 }
 
 .plants-subtitle {
